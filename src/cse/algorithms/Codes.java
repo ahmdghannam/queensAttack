@@ -2,7 +2,7 @@ package cse.algorithms;
 
 import java.util.ArrayList;
 
-public abstract class Codes {
+public final class Codes {
 
     public static boolean[] queensAttack(int boardSize, int numberOfQueens, ArrayList<Position> queensPositions){
 
